@@ -61,6 +61,7 @@ following default cluster parameters:
   bits in kube_pods_subnet dictates how many kube-nodes can be in cluster.
 * *skydns_server* - Cluster IP for DNS (default is 10.233.0.3)
 * *skydns_server_secondary* - Secondary Cluster IP for CoreDNS used with coredns_dual deployment (default is 10.233.0.4)
+* *enable_coredns_k8s_endpoint_pod_names* - If enabled, it configures endpoint_pod_names option for kubernetes plugin.
 * *cloud_provider* - Enable extra Kubelet option if operating inside GCE or
   OpenStack (default is unset)
 * *kube_hostpath_dynamic_provisioner* - Required for use of PetSets type in
